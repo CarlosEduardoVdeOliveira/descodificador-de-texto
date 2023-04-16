@@ -1,0 +1,9 @@
+@media (max-width: 375px) {
+   main{
+      font-size: 0.75;
+   }
+   .info-group-button{
+      display: flex;
+      flex-direction: column;
+   }
+}

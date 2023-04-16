@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+   main{
+      display: block;
+   }
+   .button-cryptography{
+      margin-right: 1.5rem;
+   }
+   .text-cryption{
+      width: 100%;
+   }
+   .text-cryption img{
+      display: none;
+   }
+}

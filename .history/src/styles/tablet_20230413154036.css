@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+   section{
+      display: block;
+   }
+   img{
+      margin: 1rem;
+   }
+   .textarea-input{
+      margin: 0 auto;
+   }
+   .info{
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+   }
+   .text-cryption{
+      width: 43rem;
+      height: 8.313rem;
+      padding: 0;
+      margin: 1.5rem auto;
+   }
+   .text-cryption img{
+      display: none;
+   }
+}

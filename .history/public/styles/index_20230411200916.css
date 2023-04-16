@@ -1,0 +1,9 @@
+header{
+   width: 100%;
+   display: flex;
+}
+header img{
+   width: 128px;
+   height: 48px;
+   margin: 40px;
+}

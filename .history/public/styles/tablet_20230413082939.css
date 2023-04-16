@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+   main{
+      display: block;
+   }
+   .textarea-input{
+      margin: 0 auto;
+   }
+   .info{
+      margin: 0 auto;
+      border: 2px solid saddlebrown;
+   }
+   .text-cryption{
+      width: 43rem;
+      border: 2px solid saddlebrown;
+      height: 8.313rem;
+      padding: 0;
+      margin: 1.5rem auto;
+   }
+   .text-cryption img{
+      display: none;
+   }
+}

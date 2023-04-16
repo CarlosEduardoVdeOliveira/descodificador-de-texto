@@ -1,0 +1,7 @@
+@media (max-width: 375px) {
+   .info-group-button{
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+   }
+}

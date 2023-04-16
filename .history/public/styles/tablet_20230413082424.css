@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+   main{
+      display: block;
+   }
+   .info{
+      margin-left: 1.5rem;
+   }
+   .text-cryption{
+      width: 43rem;
+      height: 8.313rem;
+      padding: 2rem;
+   }
+   .text-cryption img{
+      display: none;
+   }
+}

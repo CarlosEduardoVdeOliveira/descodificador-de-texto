@@ -1,0 +1,13 @@
+@media (max-width: 375px) {
+   .info-group-button{
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+   }
+   .text-cryption{
+      width: 43rem;
+      height: 8.313rem;
+      padding: 0;
+      margin: 1.5rem auto;
+   }
+}

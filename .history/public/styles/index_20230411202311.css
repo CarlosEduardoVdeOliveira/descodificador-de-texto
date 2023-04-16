@@ -1,0 +1,31 @@
+:root{
+   --dark-blue-300: #0A3871;
+}
+header{
+   width: 100%;
+}
+header img{
+   width: 128px;
+   height: 48px;
+   margin: 40px;
+}
+main{
+   display: flex;
+   justify-content: space-around;
+   align-items: self-start;
+   margin: 0 auto;
+}
+/* textarea{
+   width: 680px;
+   height: 48px;
+   font-family: 'Inter';
+   font-size: 32px;
+   line-height: 150%;
+   color: var(--dark-blue-300);
+}
+
+textarea::placeholder{
+   color: var(--dark-blue-300);
+} */
+/* identical to box height, or 48px */
+/* Dark blue/dark-blue-300 */

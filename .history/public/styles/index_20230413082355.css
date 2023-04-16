@@ -1,0 +1,118 @@
+/* header{
+   width: 100%;
+   height: 2.5rem;
+} */
+body{
+   background-color: var(--light-blue-100);
+}
+img{
+   width: 8rem;
+   height: 3rem;
+   margin-top: 2.5rem;
+}
+main {
+   display: flex;
+   justify-content: space-around;
+   align-items: self-start;
+   margin: 0 auto;
+}
+.frist-area{
+   display: flex;
+   flex-direction: column;
+   margin-top: 7.5rem;
+}
+textarea.textarea-input{
+   width: 42.5rem;
+   height: 39.68rem;
+   font-family: 'Inter';
+   font-size: 32px;
+   line-height: 150%;
+   background-color: var(--light-blue-100);
+   color: var(--dark-blue-300);
+   border: none;
+   resize: none;
+   margin-bottom: 1.5rem;
+   padding: 1.5rem;
+}
+textarea.textarea-input:focus{
+   outline: 0;
+}
+
+textarea.textarea-input::placeholder{
+   color: var(--dark-blue-300);
+}
+
+i{
+   color: var(--gray-400);
+   font-size: 1rem;
+}
+span{
+   font-size: 12px;
+   color: var(--gray-400);
+   line-height: 150%;
+   opacity: 0.8;
+   margin-bottom: 1rem;
+}
+button{
+   padding: 1.5rem;
+   gap: .5rem;
+   width: 328px;
+   height: 67px;
+   border-radius: 1.5rem;
+   cursor: pointer;
+   font-size: 1rem;
+   line-height: 19px;
+   border: 1px solid var(--dark-blue-300);
+   transition: all .2s;
+}
+.button-cryptography{
+   background-color: var(--dark-blue-300);
+   color: white;
+   margin-right: 1.5rem;
+}
+.button-cryptography:hover{
+   background-color: var(--dark-blue-400);
+}
+.button-decryption{
+   background: var(--light-gray);
+   color: var(--dark-blue-300);
+}
+.button-decryption:hover{
+   background-color: var(--light-blue-200);   
+}
+.text-cryption{
+   width: 25rem;
+   margin: 2.5rem;
+   padding: 15.188rem 2rem;
+   text-align: center;
+   background-color: white;
+   /* shadow */
+   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+   border-radius: 32px;
+}
+.text-cryption img{
+   width: 21rem;
+   height: 19rem;
+}
+.text-cryption div{
+   display: flex;
+   flex-direction: column;
+   
+   margin-top: 2rem;
+   padding: 0px;
+   gap: 16px;
+}
+
+
+.format-text-cryption{
+   /* padding: 2rem;
+   position: relative; */
+
+}
+
+.button-copy-cryption{
+   background-color: white;
+}
+.button-copy-cryption:hover{
+   background-color: var(--light-blue-200);
+}

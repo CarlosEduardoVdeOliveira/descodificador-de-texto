@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+   main{
+      display: block;
+   }
+   .info{
+      margin-left: 1.5rem;
+   }
+   .text-cryption{
+      width: 43rem;
+      height: 8.313rem;
+      border: 2px solid saddlebrown;
+   }
+   .text-cryption img{
+      display: none;
+      padding: 2rem;
+   }
+}
