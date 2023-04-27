@@ -4,8 +4,8 @@ const buttonCryptography = document.querySelector(".button-cryptography");
 const buttonDecryption = document.querySelector(".button-decryption");
 
 buttonDecryption.setAttribute("disabled", '');
-const jump = Number(prompt(`Digite em que posição o alfabeto deve começar. \n O número deve estar entre 0 = "a" e 25 = "z".`));
-
+// const jump = Number(prompt(`Digite em que posição o alfabeto deve começar. \n O número deve estar entre 0 = "a" e 25 = "z".`));
+const jump = 5
 
 function encryptText() {   
    const textareaValue = elementTextarea.value;
@@ -50,6 +50,7 @@ function decryptText() {
    }
    return alert("Preencha sua mensagem!")
 }
+
 
 function copyText() {
    const textareaOutput = document.querySelector('.textarea-output');
