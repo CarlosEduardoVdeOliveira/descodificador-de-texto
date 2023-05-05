@@ -119,7 +119,7 @@ footer{
    gap: 1rem;
    background: var(--dark-blue-300);
    background: linear-gradient(117deg, rgba(10,56,113,1) 0%, rgba(7,43,97,1) 50%, rgba(5,32,81,1) 100%);
-   color: var(--light-gray);
+   color: var(--light-blue-100);
 }
 
 footer p:after{
@@ -144,10 +144,10 @@ li a{
    text-decoration: none;
 }
 li a i{
-   color: var(--gray-100);
+   color: var(--light-blue-100);
    font-size: 1.5rem;
    transition: all 1s;
 }
 li a i:hover{
-   color: var(--gray-400);
+   color: var(--light-blue-500);
 }
