@@ -3,23 +3,7 @@ const areaCryption = document.querySelector(".text-cryption");
 const buttonCryptography = document.querySelector(".button-cryptography");
 const buttonDecryption = document.querySelector(".button-decryption");
 
-buttonDecryption.setAttribute("disabled", '');
-// const jump = Number(prompt(`Digite em que posição o alfabeto deve começar. \n O número deve estar entre 0 = "a" e 25 = "z".`));
-const jump = 5
-
-function encryptText() {   
-   const textareaValue = elementTextarea.value;
-   if (textareaValue.length > 0) {
-      disabledButtonDecrypt()
-      areaCryption.classList.add("text-cryption-whit-text")
-      return areaCryption.innerHTML = `
-         <textarea class="textarea-output" disabled>${cipherOfCesar(textareaValue, jump)}</textarea>
-         <button class="button-copy" id='copy' onclick="copyText()">Copiar</button>
-         `;
-         
-      }
-   return alert("Preencha sua mensagem!");
-}
+/* buttonDecryption.setAttribute("disabled", ''); */
 
 // Cifra de César
 function cipherOfCesar(text, jump){
@@ -34,21 +18,39 @@ function cipherOfCesar(text, jump){
    return cryptograph
 }
 
-function disabledButtonDecrypt(){
+function rendersEncryptedTextAndCopyButton(callback){
+   const textareaValue = elementTextarea.value;
+   if (textareaValue.length > 0) {
+      /* disabledButtonDecrypt() */
+      areaCryption.classList.add("text-cryption-whit-text")
+      return areaCryption.innerHTML = `
+         <textarea class="textarea-output" disabled>${callback}</textarea>
+         <button class="button-copy" id='copy' onclick="copyText()">Copiar</button>
+         `;
+         
+      }
+   return alert("Preencha sua mensagem!");
+   
+}
+
+function encryptText() {
+   const textareaValue = elementTextarea.value;
+   rendersEncryptedTextAndCopyButton(
+      cipherOfCesar(textareaValue, 5));
+}
+
+
+
+/* function disabledButtonDecrypt(){
    buttonDecryption.removeAttribute("disabled");
    buttonDecryption.style.cursor = 'pointer';
-}
+} */
 
 
 function decryptText() {
    const textareaValue = elementTextarea.value;
-   if (textareaValue.length > 0) {
-      return areaCryption.innerHTML = `
-            <textarea class="textarea-output" disabled>${textareaValue}</textarea>
-            <button class="button-copy" id='copy' onclick="copyText()">Copiar</button>
-         `;
-   }
-   return alert("Preencha sua mensagem!")
+   rendersEncryptedTextAndCopyButton(
+      cipherOfCesar(textareaValue, -5));
 }
 
 

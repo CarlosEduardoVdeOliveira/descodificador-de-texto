@@ -4,6 +4,7 @@
    --gray-200: #ADB5BD;
    --gray-300: #868E96;
    --gray-400: #495057;
+   --gray-450: #65747D;
    --gray-500: #343A40;
    --light-blue-100: #F3F5FC;
    --light-blue-200: #EFF1FA;
@@ -22,9 +23,10 @@
    box-sizing: border-box;
 }
 
-html, input, textarea, button, body{
-   background-color: var(--light-blue-100);
+html, input, textarea, button{
    font-family:  'Inter', sans-serif;
+   font-weight: 400;
+   font-size: 1rem;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
 }

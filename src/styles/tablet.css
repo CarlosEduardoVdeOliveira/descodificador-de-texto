@@ -1,25 +1,23 @@
 @media (max-width: 768px) {
    main{
-      display: block;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1.716rem 1fr 7.5rem;
    }
-   img{
-      margin: 1rem;
+   .text-area-input textarea{
+      height: 15rem;
    }
-   .textarea-input{
-      margin: 0 auto;
-   }
-   .info{
+   .text-area-output{
+      padding: 1rem;
+      width: 100%;
+      height: 7.5rem;
       display: flex;
-      flex-direction: column;
-      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem 0;
    }
-   .text-cryption{
-      width: 43rem;
-      height: 8.313rem;
-      padding: 0;
-      margin: 1.5rem auto;
-   }
-   .text-cryption img{
-      display: none;
+   .text-area-output img{
+      width: 0;
+      height: 0;
+      overflow: hidden;
    }
 }

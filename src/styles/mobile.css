@@ -1,21 +1,26 @@
-@media (max-width: 375px) {
-   img{
-      margin: 1rem;
+@media (max-width: 375px){
+   button{
+      width: 100%;
    }
-   .info{
-      margin: 0 auto;
-   }
-   .info-group-button{
-      display: flex;
+   .crypto-controls-group-button{
       flex-direction: column;
    }
-   .info-group-button .button-cryptography{
-      margin-bottom: 1.5rem;
+   footer{
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
    }
-   .text-cryption{
-      width: 20.438rem;
-      height: 11.625rem;
-      padding: 0;
-      margin: 1.5rem auto;
+   footer ul{
+      gap: 1rem;
+      margin-top: 0.5rem;
+   }
+   footer p:after{
+      content: '';
+      display: flex;
+      position: absolute;
+      width: calc(100% - 3rem);
+      height: 2px;
+      margin: 0.5rem;
+      background-color: var(--light-blue-100);
    }
 }
