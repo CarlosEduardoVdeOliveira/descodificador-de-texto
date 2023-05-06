@@ -1,4 +1,11 @@
 @media (max-width: 375px){
+   body{
+      grid-template-rows: 1fr 8rem;
+   }
+   main{
+      width: 100%;
+      padding: 1rem;
+   }
    button{
       width: 100%;
    }
@@ -20,7 +27,7 @@
       display: flex;
       position: absolute;
       width: calc(100% - 3rem);
-      height: 2px;
+      height: 1px;
       margin: 0.5rem;
       background-color: var(--light-blue-100);
    }

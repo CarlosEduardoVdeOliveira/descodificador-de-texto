@@ -1,6 +1,6 @@
 body {
-   display: flex;
-   flex-direction: column;
+   display: grid;
+   grid-template-rows: 1fr 3.45rem;
    background-color: var(--light-blue-100);
 }
 
@@ -10,6 +10,7 @@ main {
    display: grid;
    grid-template-columns: 10% 3fr 3fr;
    padding: 2rem;
+   margin: 0 auto;
 }
 
 header {
@@ -74,8 +75,13 @@ button {
    width: 50%;
    border-radius: 1.5rem;
    cursor: pointer;
+   background-color: transparent;
+   color: var(--dark-blue-300);
    border: 1px solid var(--dark-blue-300);
    transition: all .5s;
+}
+button:hover {
+   background-color: var(--light-gray);
 }
 
 .button-cryptography {
@@ -85,15 +91,6 @@ button {
 
 .button-cryptography:hover {
    background-color: var(--dark-blue-400);
-}
-
-.button-decryption {
-   background-color: var(--light-gray);
-   color: var(--dark-blue-300);
-}
-
-.button-decryption:hover {
-   background-color: var(--light-blue-100);
 }
 
 .text-area-output {
@@ -127,6 +124,7 @@ button {
 
 .text-area-output textarea{
    height: calc(100%);
+   color: var(--gray-400);
 }
 .text-area-output button{
    width: 100%;
@@ -141,7 +139,7 @@ footer {
    align-items: center;
    justify-content: center;
    font-stretch: expanded;
-   position: absolute;
+   /* position: absolute; */
    bottom: 0;
    width: 100%;
    padding: 1rem;
