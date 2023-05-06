@@ -24,18 +24,20 @@ header img {
    width: 100%;
    margin-top: 2rem;
 }
-
-.text-area-input textarea {
+textarea {
    width: 100%;
-   height: calc(100vh - 15.625rem);
-   background-color: var(--light-blue-100);
+   background-color: transparent;
    border: none;
-   padding: 1rem;
    font-size: 1.5rem;
-   color: var(--dark-blue-300);
    margin-bottom: 1rem;
+   color: var(--dark-blue-300);
    line-height: 150%;
+   padding: 1rem;
    resize: none;
+
+}
+.text-area-input textarea {
+   height: calc(100vh - 15.625rem);
 }
 
 .text-area-input textarea::placeholder {
@@ -122,6 +124,17 @@ button {
    font-size: 1rem;
    color: var(--gray-400);
 }
+
+.text-area-output textarea{
+   height: calc(100%);
+}
+.text-area-output button{
+   width: 100%;
+}
+.text-cryption-whit{
+   padding: 1rem;
+}
+
 
 footer {
    display: flex;

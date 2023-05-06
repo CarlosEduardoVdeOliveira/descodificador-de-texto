@@ -1,5 +1,5 @@
 const elementTextarea = document.querySelector("textarea");
-const areaCryption = document.querySelector(".text-cryption");
+const areaCryption = document.querySelector(".text-area-output");
 const buttonCryptography = document.querySelector(".button-cryptography");
 const buttonDecryption = document.querySelector(".button-decryption");
 
@@ -37,7 +37,7 @@ console.log(test());
 function showResult(callback) {
    let text = elementTextarea.value;
    if (text.length > 0) {
-      areaCryption.classList.add("text-cryption-whit-text");
+      areaCryption.classList.add("text-cryption-whit");
       return (areaCryption.innerHTML = `
          <textarea class='textarea-output' disabled>${callback}</textarea>
          <button class='button-copy' id='copy' onclick='copyText()'>Copiar</button>
