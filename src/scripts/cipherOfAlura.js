@@ -32,6 +32,13 @@ const isLowerCase = (text) => /[^a-z$]/g.test(text);
 const clearTextareaInput = () => (textareaInput.value = "");
 const focusTextareaInput = () => textareaInput.focus();
 
+const removeClassDanger = () => {
+    const interval = 5000;
+    return setInterval(() => {
+      sapnNotice.classList.remove("danger");
+    }, interval)  
+  }
+
 const showResult = (callback) => {
   const text = textareaInput.value;
   if (text.length > 0) {
@@ -50,11 +57,12 @@ const encrypt = () => {
   const text = textareaInput.value;
   if (!isLowerCase(text)) {
     showResult(encryptAndDecryptText(text, newVowels, vowels));
-    sapnNotice.classList.remove("danger");
+    /* sapnNotice.classList.remove("danger"); */
     clearTextareaInput();
     focusTextareaInput();
   } else {
     sapnNotice.classList.add("danger");
+    removeClassDanger();
     clearTextareaInput();
     focusTextareaInput();
   }
@@ -64,11 +72,12 @@ const decrypt = () => {
   const text = textareaInput.value;
   if (!isLowerCase(text)) {
     showResult(encryptAndDecryptText(text, vowels, newVowels));
-    sapnNotice.classList.remove("danger");
+    /* sapnNotice.classList.remove("danger"); */
     clearTextareaInput();
     focusTextareaInput();
   } else {
     sapnNotice.classList.add("danger");
+    removeClassDanger();
     clearTextareaInput();
     focusTextareaInput();
   }
