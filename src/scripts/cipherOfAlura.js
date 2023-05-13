@@ -57,7 +57,6 @@ const encrypt = () => {
   const text = textareaInput.value;
   if (!isLowerCase(text)) {
     showResult(encryptAndDecryptText(text, newVowels, vowels));
-    /* sapnNotice.classList.remove("danger"); */
     clearTextareaInput();
     focusTextareaInput();
   } else {
@@ -72,7 +71,6 @@ const decrypt = () => {
   const text = textareaInput.value;
   if (!isLowerCase(text)) {
     showResult(encryptAndDecryptText(text, vowels, newVowels));
-    /* sapnNotice.classList.remove("danger"); */
     clearTextareaInput();
     focusTextareaInput();
   } else {
