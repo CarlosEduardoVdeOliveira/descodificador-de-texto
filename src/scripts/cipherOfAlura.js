@@ -32,11 +32,11 @@ const isLowerCase = (text) => /[^a-z$]/g.test(text);
 const clearTextareaInput = () => (textareaInput.value = "");
 const focusTextareaInput = () => textareaInput.focus();
 
-const removeClassDanger = () => {
+const removeTheDangerClassOverTime = () => {
     const interval = 5000;
     return setInterval(() => {
       sapnNotice.classList.remove("danger");
-    }, interval)  
+    }, interval);
   }
 
 const showResult = (callback) => {
@@ -61,7 +61,7 @@ const encrypt = () => {
     focusTextareaInput();
   } else {
     sapnNotice.classList.add("danger");
-    removeClassDanger();
+    removeTheDangerClassOverTime();
     clearTextareaInput();
     focusTextareaInput();
   }
@@ -75,7 +75,7 @@ const decrypt = () => {
     focusTextareaInput();
   } else {
     sapnNotice.classList.add("danger");
-    removeClassDanger();
+    removeTheDangerClassOverTime();
     clearTextareaInput();
     focusTextareaInput();
   }
