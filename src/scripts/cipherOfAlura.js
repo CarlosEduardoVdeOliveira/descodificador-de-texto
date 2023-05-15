@@ -33,11 +33,11 @@ const clearTextareaInput = () => (textareaInput.value = "");
 const focusTextareaInput = () => textareaInput.focus();
 
 const removeTheDangerClassOverTime = () => {
-    const interval = 5000;
-    return setInterval(() => {
-      sapnNotice.classList.remove("danger");
-    }, interval);
-  }
+  const interval = 5000;
+  return setInterval(() => {
+    sapnNotice.classList.remove("danger");
+  }, interval);
+};
 
 const showResult = (callback) => {
   const text = textareaInput.value;
@@ -48,7 +48,7 @@ const showResult = (callback) => {
         <button class='button-copy' id='copy' onclick='copyText()'>
           Copiar
         </button>
-        `);
+      `);
   }
   return alert("Preencha sua mensagem!");
 };
