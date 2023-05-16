@@ -29,10 +29,9 @@ Por exemplo:
 - Um botão que copie o texto criptografado/descriptografado para a área de transferência 
 - ou seja, que tenha a mesma funcionalidade do `ctrl+C` ou da opção "copiar" do menu dos aplicativos.]
 
-#:blue_book: Aplicação e Tecnológias
+**:blue_book: Aplicação e Tecnológias**
 
-|  |     |
-| -------------  | --- |
+
 | ✏️ Nome        | **Decodificador de texto**
 | 💻 Tecnologias | javascript, html, css
 | 🔗 URL         | https://carloseduardovdeoliveira.github.io/descodificador-de-texto/
