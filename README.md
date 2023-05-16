@@ -1,7 +1,7 @@
-# Descodificador-de-texto
+# Descodificador de texto
 Challenge 01 Alura + Oracle
 
-Simples aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da 
+Uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da 
 criptografia utilizada.
 
 ![](src/images/project.png)
@@ -29,10 +29,21 @@ Por exemplo:
 - Um botão que copie o texto criptografado/descriptografado para a área de transferência 
 - ou seja, que tenha a mesma funcionalidade do `ctrl+C` ou da opção "copiar" do menu dos aplicativos.]
 
-**:blue_book: Aplicação e Tecnológias**
-
-
+## :blue_book: Aplicação e Tecnológias
+|  |     |
+| -------------  | --- |
 | ✏️ Nome        | **Decodificador de texto**
-| 💻 Tecnologias | javascript, html, css
+| 💻 Tecnologias | HTML, CSS, JavaScript
 | 🔗 URL         | https://carloseduardovdeoliveira.github.io/descodificador-de-texto/
 | 🔥 Desafio     | https://www.alura.com.br/challenges/challenge-one-logica/sprint01-construa-decodificador-texto-com-javascript
+
+
+## Agradecimentos
+
+Gostaria de agradecer a Alura e Oracle por proporcionar essa oportunidade de aprendizado e aprimoramento das habilidades em desenvolvimento frontend. Foi um desafio muito interessante e gratificante de ser realizado.
+
+## Referências:
+
+- 🔗 ALURA: https://www.alura.com.br/
+- 🔗 MDN: https://developer.mozilla.org/pt-BR/
+- 🔗 W3SCOOLS: https://www.w3schools.com/
