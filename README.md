@@ -29,9 +29,11 @@ Por exemplo:
 - Um botão que copie o texto criptografado/descriptografado para a área de transferência 
 - ou seja, que tenha a mesma funcionalidade do `ctrl+C` ou da opção "copiar" do menu dos aplicativos.]
 
-| :blue_book: Aplicações Tecnológicas |     |
+| :blue_book: Aplicação e Tecnológias |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Decodificador de texto**
+| ::pencil2: Nome        | **Decodificador de texto**
 | :label: Tecnologias | javascript, html, css
-| :rocket: URL         | (https://carloseduardovdeoliveira.github.io/descodificador-de-texto/)
+| :link: URL         | [https://carloseduardovdeoliveira.github.io/descodificador-de-texto/]
+| :link: Figma         | https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?type=design&node-id=16-802&t=V25PfHpIIFiZLuBZ-0
+| :bookmark_tabs: Trello         | https://trello.com/b/EmUFmjCv/decodificador-de-texto-alura-challenges-oracle-one
 | :fire: Desafio     | https://www.alura.com.br/challenges/challenge-one-logica/sprint01-construa-decodificador-texto-com-javascript
