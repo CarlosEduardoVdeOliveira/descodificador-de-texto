@@ -33,5 +33,5 @@ Por exemplo:
 | -------------  | --- |
 | :sparkles: Nome        | **Decodificador ONE**
 | :label: Tecnologias | javascript, html, css
-| :rocket: URL         | https://erikcwill.github.io/ChallengeONE
+| :rocket: URL         | (https://carloseduardovdeoliveira.github.io/descodificador-de-texto/)
 | :fire: Desafio     | https://www.alura.com.br/challenges/challenge-one-logica/sprint01-construa-decodificador-texto-com-javascript
