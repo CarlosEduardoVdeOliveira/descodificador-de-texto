@@ -33,7 +33,5 @@ Por exemplo:
 | -------------  | --- |
 | ::pencil2: Nome        | **Decodificador de texto**
 | :label: Tecnologias | javascript, html, css
-| :link: URL         | [https://carloseduardovdeoliveira.github.io/descodificador-de-texto/]
-| :link: Figma         | https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?type=design&node-id=16-802&t=V25PfHpIIFiZLuBZ-0
-| :bookmark_tabs: Trello         | https://trello.com/b/EmUFmjCv/decodificador-de-texto-alura-challenges-oracle-one
+| :link: URL         | https://carloseduardovdeoliveira.github.io/descodificador-de-texto/
 | :fire: Desafio     | https://www.alura.com.br/challenges/challenge-one-logica/sprint01-construa-decodificador-texto-com-javascript
