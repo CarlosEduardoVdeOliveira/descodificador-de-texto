@@ -4,7 +4,7 @@ Challenge 01 Alura + Oracle
 Simples aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da 
 criptografia utilizada.
 
-![](src/image/project.png)
+![](src/images/project.png)
 
 As "chaves" de criptografia utilizadas são:
 `A letra "e" é convertida para "enter"`
