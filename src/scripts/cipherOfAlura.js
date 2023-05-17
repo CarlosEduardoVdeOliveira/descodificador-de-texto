@@ -28,7 +28,7 @@ const encryptAndDecryptText = (text, vowels, newVowels) => {
   return result;
 };
 
-const isLowerCase = (text) => /^[a-z]+$/i.test(text);
+const isLowerCase = (text) => /^[a-z\s]+$/.test(text);
 const clearTextareaInput = () => (textareaInput.value = "");
 const focusTextareaInput = () => textareaInput.focus();
 
@@ -55,7 +55,7 @@ const showResult = (callback) => {
 
 const encrypt = () => {
   const text = textareaInput.value;
-  if (!isLowerCase(text)) {
+  if (isLowerCase(text)) {
     showResult(encryptAndDecryptText(text, newVowels, vowels));
     clearTextareaInput();
     focusTextareaInput();
@@ -69,7 +69,7 @@ const encrypt = () => {
 
 const decrypt = () => {
   const text = textareaInput.value;
-  if (!isLowerCase(text)) {
+  if (isLowerCase(text)) {
     showResult(encryptAndDecryptText(text, vowels, newVowels));
     clearTextareaInput();
     focusTextareaInput();
